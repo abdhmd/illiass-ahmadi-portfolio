@@ -7,8 +7,8 @@ const Skills = () => {
       <SectionHeadline title={"my skills"} />
       <Container>
         <Grid   columns={[1, 2]} sx={{
-          columnGap : [2,3,5],
-          rowGap : [3,3,4]
+          columnGap : [3,3,5],
+          rowGap : 4
         }}>
           {skillsData.map((skill) => (
             <Flex
@@ -42,7 +42,7 @@ const Skills = () => {
                   bg: "rgba(0,0,0,0.06)",
                   borderRadius: "20px",
                   overflow: "hidden",
-                  marginTop: [2,2,3],
+                  marginTop: 2,
                 }}
               >
                 <Box

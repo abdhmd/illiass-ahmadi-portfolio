@@ -56,7 +56,7 @@ const styles = {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    boxShadow: "0 20px 30px rgba(97, 69, 238, 0.2)",
+    boxShadow: "0 20px 30px rgba(97, 69, 238, 0.1)",
     cursor: "pointer",
   },
   icon: {

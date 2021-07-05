@@ -33,7 +33,7 @@ export default {
       borderRadius : "8px",
       px: 4,
       py: 3,
-      boxShadow: "0 20px 30px rgba(97, 69, 238, 0.5)",
+      boxShadow: "0 20px 30px rgba(97, 69, 238, 0.2)",
       transition: "ease-in 300ms all",
       "&:hover": {
         bg: "primaryDark",

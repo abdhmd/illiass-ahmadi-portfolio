@@ -39,7 +39,7 @@ const Hero = () => {
                 color: "background",
               }}
             >
-              hire me
+              contact me
             </Link>
           </Button>
         </Box>

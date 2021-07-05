@@ -19,7 +19,7 @@ const Nav = () => {
           sx={{
             justifyContent: "space-between",
             alignItems: "center",
-            py: [2,4],
+            py: [3,4],
           }}
         >
           <Box sx={{

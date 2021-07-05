@@ -27,10 +27,9 @@ const Footer = () => {
           </Link>
         </Box>
         <Heading
-          as="h3"
-          variant="styles.h3"
+          as="h5"
           sx={{
-            mt: 3,
+            mt: 2,
             textAlign: "center",
             textTransform: "uppercase",
           }}

@@ -65,7 +65,7 @@ export const skillsData = [
   },
   {
     id: 4,
-    skill: "material ui  /reactstarp/ chakra ",
+    skill: "material ui  /reactstrap/ chakra ",
     rate: "80%",
   },
   {

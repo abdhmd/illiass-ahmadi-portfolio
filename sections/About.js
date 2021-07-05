@@ -39,7 +39,9 @@ const About = () => {
               }}>
                   i'm <Box as="span" sx={{color:"primary"}}>abdelhamid boudiba</Box>
               </Heading>
-            <Text as="p" variant="styles.p">
+            <Text as="p" variant="styles.p" sx={{
+              
+            }}>
               Frontend developer with 5 years experience,I create successful
               websites that are fast, easy to use, and built with best
               practices. I work to make a better web; one that is fast, easy to
@@ -47,11 +49,7 @@ const About = () => {
               <br />
               <br />I use HTML, CSS, and JavaScript to produce responsive
               websites and web apps that provide users the best and most
-              appropriate experience suited to their device and browser. I have
-              a special interest in use of animation on the web. I particularly
-              like working on websites that have seamless transitions and
-              require high-level performance to maintain a smooth and appealing
-              website.
+              appropriate experience suited to their device and browser. 
             </Text>
             <Button sx={{
                 mt: [4,5]
