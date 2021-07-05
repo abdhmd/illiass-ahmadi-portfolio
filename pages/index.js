@@ -2,7 +2,7 @@ import { ThemeProvider } from "theme-ui";
 import theme from "../theme";
 import Layout from "../components/Layout";
 import Hero from "../sections/Hero";
-import { Portfolio } from "./works";
+import Portfolio from "../sections";
 import Skills from "../sections/Skills";
 import About from "../sections/About";
 import Contact from "../sections/Contact";
@@ -17,14 +17,12 @@ export async function getServerSideProps() {
   };
 }
 
-
-export default function Home({works}) {
-
+export default function Home({ works }) {
   return (
     <ThemeProvider theme={theme}>
       <Layout>
         <Hero />
-        <Portfolio data={works}/>
+        <Portfolio data={works} />
         <Skills />
         <About />
         <Contact />

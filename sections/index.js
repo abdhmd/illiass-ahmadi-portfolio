@@ -1,8 +1,8 @@
 import { Box, Container, Grid, Image } from "@theme-ui/components";
-import SectionHeadline from "../../components/SectionHeadline";
+import SectionHeadline from "../components/SectionHeadline";
 import Link from "next/link";
 
-export const Portfolio = ({ data }) => {
+const Portfolio = ({ data }) => {
   return (
     <Box as="section" id="portfolio" variant="styles.section">
       <SectionHeadline title="portfolio" />
@@ -28,6 +28,8 @@ export const Portfolio = ({ data }) => {
     </Box>
   );
 };
+
+export default Portfolio;
 
 const styles = {
   boxImage: {
