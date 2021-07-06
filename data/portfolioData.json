@@ -10,6 +10,35 @@
     "images": {
       "cover": "/portfolio/tutcomp/cover.png",
       "view": "/portfolio/tutcomp/view.png"
-    }
+    },
+    "skills": ["html", "css", "javascript", "ui design", "git"]
+  },
+  {
+    "id": "02",
+    "name": "intellitrade",
+    "description": "An introductory website  for a trading application designed with next js and reactstrap .",
+    "source_code": "https://github.com/abdhmd/intellitrade",
+    "view_website": "https://intellitradeapp.vercel.app/",
+    "create_date": "27-05-2021",
+    "slug": "intellitrade",
+    "images": {
+      "cover": "/portfolio/intellitrade/cover.png",
+      "view": "/portfolio/intellitrade/view.png"
+    },
+    "skills": ["html", "css", "javascript","next js","reactstrap", "ui design", "git"]
+  },
+  {
+    "id": "03",
+    "name": "my movie",
+    "description": "Web application to search for movies and series information , designed by Next JS framework .",
+    "source_code": "https://github.com/abdhmd/mymovie",
+    "view_website": "https://hmd-mymovie.netlify.app/",
+    "create_date": "23-05-2021",
+    "slug": "my_movie",
+    "images": {
+      "cover": "/portfolio/mymovie/cover.png",
+      "view": "/portfolio/mymovie/view.png"
+    },
+    "skills": ["html", "css", "javascript","next js", "ui design", "git"]
   }
 ]

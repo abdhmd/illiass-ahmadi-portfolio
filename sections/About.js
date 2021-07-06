@@ -39,9 +39,7 @@ const About = () => {
               }}>
                   i'm <Box as="span" sx={{color:"primary"}}>abdelhamid boudiba</Box>
               </Heading>
-            <Text as="p" variant="styles.p" sx={{
-              
-            }}>
+            <Text as="p" variant="styles.p" >
               Frontend developer with 5 years experience,I create successful
               websites that are fast, easy to use, and built with best
               practices. I work to make a better web; one that is fast, easy to

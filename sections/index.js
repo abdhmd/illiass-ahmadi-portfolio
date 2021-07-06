@@ -37,5 +37,10 @@ const styles = {
     borderRadius: "8px",
     boxShadow: "0 5px 30px rgba(97, 69, 238, 0.1)",
     cursor: "pointer",
+    "&:hover": {
+      transition: "300ms ease-in all",
+      transform: "scale(1.02)",
+      boxShadow: "0 5px 30px rgba(97, 69, 238, 0.3)",
+    },
   },
 };

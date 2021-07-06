@@ -5,7 +5,6 @@ const Layout = ({ children }) => {
     <>
       <Meta />
       {children}
-      <Footer />
     </>
   );
 };
