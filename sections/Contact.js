@@ -18,7 +18,6 @@ const Contact = () => {
             sx={{
               justifyContent: "center",
               alignItems: "center",
-              gap: 2,
             }}
           >
             {contactData.map((item) => (
@@ -58,6 +57,13 @@ const styles = {
     alignItems: "center",
     boxShadow: "0 20px 30px rgba(97, 69, 238, 0.1)",
     cursor: "pointer",
+    mx : 1,
+    "&:hover" :{
+      transform: "scale(1.04)",
+      transition : "ease-in 300ms all"
+
+    }
+    
   },
   icon: {
     color: "primary",

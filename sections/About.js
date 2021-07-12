@@ -10,9 +10,7 @@ import {
 } from "@theme-ui/components";
 import SectionHeadline from "../components/SectionHeadline";
 
-const link =
-  "https://drive.google.com/file/d/18kbHG3XEJXpUP9J-EFp95Y9HaplWQOWA/view";
-
+const link = "https://drive.google.com/file/d/1WsKwq9uX6jQYyDrBAqR2d14BQ3aufoQS/view?usp=sharing"
 const About = () => {
   return (
     <Box
@@ -76,7 +74,7 @@ const About = () => {
               practices. I work to make a better web; one that is fast, easy to
               use, beautiful, accessible to all.
               <br />
-              <br />I use HTML, CSS, and JavaScript to produce responsive
+              <br />I use the latest technologies to produce responsive
               websites and web apps that provide users the best and most
               appropriate experience suited to their device and browser.
             </Text>
@@ -92,7 +90,7 @@ const About = () => {
                   color: "background",
                 }}
               >
-                download cv
+                my resume
               </Link>
             </Button>
           </Box>
