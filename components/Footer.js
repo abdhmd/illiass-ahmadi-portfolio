@@ -34,7 +34,7 @@ const Footer = () => {
             textTransform: "uppercase",
           }}
         >
-          abdelhamid boudiba | {date}
+          iliass ahmadi | {date}
         </Heading>
         <Box
           as="ul"

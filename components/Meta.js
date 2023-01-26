@@ -14,7 +14,7 @@ const Meta = ({ title, keywords, description }) => {
 }
 
 Meta.defaultProps = {
-  title: 'ABDELHAMID BOUDIBA PORTFOLIO',
+  title: 'iliass ahmadi PORTFOLIO',
   keywords: 'portfolio,website,nextjs,cv',
   description: 'My Portfoio Website ',
 }

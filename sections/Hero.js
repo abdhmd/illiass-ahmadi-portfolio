@@ -21,7 +21,7 @@ const Hero = () => {
       <Nav />
       <Container sx={styles.container}>
         <Text as="p" variant={styles.p} sx={styles.text}>
-          hi i'm abdelhamid boudiba
+          hi i'm iliass ahmadi
         </Text>
         <Heading as="h1" sx={styles.h1}>
           frontend <br />

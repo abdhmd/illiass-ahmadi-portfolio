@@ -2,7 +2,7 @@ import { Box, Container, Flex, Link, Heading } from "@theme-ui/components";
 import SectionHeadline from "../components/SectionHeadline";
 import { contactData } from "../data/data";
 
-const email = "sirhmd@outlook.com";
+const email = "iliassahmadi@email.info";
 
 const Contact = () => {
   return (

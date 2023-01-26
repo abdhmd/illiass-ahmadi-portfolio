@@ -84,16 +84,16 @@ export const contactData = [
   {
     name: "facebook",
     icon: GrFacebookOption,
-    link: "https://web.facebook.com/people/Abd-Elhamid/100062978630663/",
+    link: "https://web.facebook.com/",
   },
   {
     name: "instagram",
     icon: GrInstagram,
-    link: "https://www.instagram.com/ham.dsn/",
+    link: "https://www.instagram.com/",
   },
   {
     name: "linkedin",
     icon: GrLinkedinOption,
-    link: "https://www.linkedin.com/in/abd-elhamid-2641a6205",
+    link: "https://www.linkedin.com/",
   },
 ];

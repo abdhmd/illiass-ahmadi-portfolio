@@ -10,7 +10,6 @@ import {
 } from "@theme-ui/components";
 import SectionHeadline from "../components/SectionHeadline";
 
-const link = "https://drive.google.com/file/d/1WsKwq9uX6jQYyDrBAqR2d14BQ3aufoQS/view?usp=sharing"
 const About = () => {
   return (
     <Box
@@ -46,7 +45,7 @@ const About = () => {
               zIndex: "10",
             }}
           >
-            <Image src="photo.png" sx={{ height: "100%" }} />
+            <Image src="photo.jpg" sx={{ height: "100%",width : "100%" }} />
           </Box>
           <Box
             as="div"
@@ -65,7 +64,7 @@ const About = () => {
             >
               i'm{" "}
               <Box as="span" sx={{ color: "primary" }}>
-                abdelhamid boudiba
+                iliass ahmadi
               </Box>
             </Heading>
             <Text as="p" variant="styles.p">
@@ -84,7 +83,7 @@ const About = () => {
               }}
             >
               <Link
-                href={link}
+                href="#"
                 target="_"
                 sx={{
                   color: "background",
